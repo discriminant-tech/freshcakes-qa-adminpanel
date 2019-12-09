@@ -252,7 +252,7 @@ class Header extends React.Component {
                     onClick={() => this.toggleDrawer("left", false)}
                   >
                     <ListItemIcon>
-                      <HomeOutlined nativeColor="#08c65b" />
+                      <HomeOutlined nativeColor="#f50057" />
                     </ListItemIcon>
                     <ListItemText primary="Home" />
                   </ListItem>
@@ -262,7 +262,7 @@ class Header extends React.Component {
                 <Link to={"/Categories"}>
                   <ListItem button>
                     <ListItemIcon>
-                      <CategoryIcon nativeColor="#08c65b" />
+                      <CategoryIcon nativeColor="#f50057" />
                     </ListItemIcon>
                     <ListItemText primary="Categories" />
                   </ListItem>
@@ -272,7 +272,7 @@ class Header extends React.Component {
                 <Link to={"/SubCategories"}>
                   <ListItem button>
                     <ListItemIcon>
-                      <ViewListIcon nativeColor="#08c65b" />
+                      <ViewListIcon nativeColor="#f50057" />
                     </ListItemIcon>
                     <ListItemText primary="Sub-Categories" />
                   </ListItem>
@@ -282,7 +282,7 @@ class Header extends React.Component {
                 <Link to={"/Prices"}>
                   <ListItem button>
                     <ListItemIcon>
-                      <MonetizationOnIcon nativeColor="#08c65b" />
+                      <MonetizationOnIcon nativeColor="#f50057" />
                     </ListItemIcon>
                     <ListItemText primary="Sub-Category Prices" />
                   </ListItem>
@@ -293,7 +293,7 @@ class Header extends React.Component {
                 <Link to={"/Orders"}>
                   <ListItem button>
                     <ListItemIcon>
-                      <ShoppingCart nativeColor="#08c65b" />
+                      <ShoppingCart nativeColor="#f50057" />
                     </ListItemIcon>
                     <ListItemText primary="Orders" />
                   </ListItem>
@@ -302,7 +302,7 @@ class Header extends React.Component {
                 {/* <Link to={"/OrderMaterial"}>
                   <ListItem button>
                     <ListItemIcon>
-                      <AddShoppingCart nativeColor="#08c65b" />
+                      <AddShoppingCart nativeColor="#f50057" />
                     </ListItemIcon>
                     <ListItemText primary="Order Material" />
                   </ListItem>
@@ -313,7 +313,7 @@ class Header extends React.Component {
                 <Link to={"/Users"}>
                   <ListItem button>
                     <ListItemIcon>
-                      <PeopleOutline nativeColor="#08c65b" />
+                      <PeopleOutline nativeColor="#f50057" />
                     </ListItemIcon>
                     <ListItemText primary="Users" />
                   </ListItem>
@@ -323,7 +323,7 @@ class Header extends React.Component {
                 <Link to={"/Addresses"}>
                   <ListItem button>
                     <ListItemIcon>
-                      <CategoryOutline nativeColor="#08c65b" />
+                      <CategoryOutline nativeColor="#f50057" />
                     </ListItemIcon>
                     <ListItemText primary="Addresses" />
                   </ListItem>
@@ -333,7 +333,7 @@ class Header extends React.Component {
                 <Link to={"/Banners"}>
                   <ListItem button>
                     <ListItemIcon>
-                      <ViewCarouselIcon nativeColor="#08c65b" />
+                      <ViewCarouselIcon nativeColor="#f50057" />
                     </ListItemIcon>
                     <ListItemText primary="Banners" />
                   </ListItem>

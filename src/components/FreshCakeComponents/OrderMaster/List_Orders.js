@@ -138,7 +138,7 @@ class Orders extends React.PureComponent {
                 { name: "USER_ID", title: "User ID" },
                 { name: "USER_NAME", title: "User Name" },
                 { name: "MOBILE_NUMBER", title: "Mobile No. " },
-                { name: "ORDER_DATE_FRMT", title: "Order Date" },
+                { name: "DELIVERY_DATE_FRMT", title: "Order Date" },
                 { name: "TOTAL_AMOUNT", title: "Total Amount" },
                 { name: "DISCOUNT", title: "Discount" },
                 { name: "NET_AMOUNT", title: "Net Amount" },
@@ -157,7 +157,7 @@ class Orders extends React.PureComponent {
                 { columnName: 'USER_ID', wordWrapEnabled: true , },
                 { columnName: 'USER_NAME', wordWrapEnabled: true,   },
                 { columnName: 'MOBILE_NUMBER', wordWrapEnabled: true,   },
-                { columnName: 'ORDER_DATE_FRMT', wordWrapEnabled: true,  },
+                { columnName: 'DELIVERY_DATE_FRMT', wordWrapEnabled: true,  },
                 { columnName: 'TOTAL_AMOUNT', wordWrapEnabled: true,   },
                 { columnName: 'DISCOUNT', wordWrapEnabled: true,  },
                 { columnName: 'NET_AMOUNT', wordWrapEnabled: true,   },
@@ -177,7 +177,7 @@ class Orders extends React.PureComponent {
             pageSize: 5,
             pageSizes: [5, 10, 15],
             sorting: [
-                { columnName: 'ORDER_ID' },
+                 { columnName: 'DELIVERY_DATE_FRMT' },
             ],
             showSearchFrom: 'none',
 
@@ -369,9 +369,11 @@ class Orders extends React.PureComponent {
         }
         else {
             console.log(result);
+            await this.toggleUpdateStutusPopup()
+            await this.populateList()
+           
             await this.setState({ popmessage: 'Status Updated Successfully!', open: true });
-            this.populateList()
-            this.toggleUpdateStutusPopup()
+        
         }
 
     };
