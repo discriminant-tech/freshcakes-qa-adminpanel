@@ -61,8 +61,8 @@ class SignIn extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      mobile: '9665105063',
-      password: 'freshcakes',
+      mobile: '',
+      password: '',
       open: false,
       errorMessage: '',
     }
