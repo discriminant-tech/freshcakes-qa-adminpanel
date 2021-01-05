@@ -13,7 +13,7 @@
     "apollo-client": "^2.3.2",
     "apollo-link-context": "^1.0.9",
     "apollo-link-http": "^1.5.4",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "file-saver": "^2.0.0-rc.4",
     "graphql": "^0.13.2",
     "graphql-tag": "^2.9.2",
